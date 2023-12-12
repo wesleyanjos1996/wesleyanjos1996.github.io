@@ -78,6 +78,11 @@
 #social-container li a {
     color: var(--main-color);
     font-size: 30px;
+    transition: .5s;
+}
+
+#social-container li a:hover {
+    color: #54b68980;
 }
 
 #email-container {
@@ -226,4 +231,8 @@
     .skills-box i {
         font-size: 60px;
     }
+}
+
+.text-upper {
+    text-transform: uppercase;
 }
