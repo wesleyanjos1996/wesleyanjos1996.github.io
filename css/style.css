@@ -20,6 +20,10 @@
     color: var(--main-color);
 }
 
+.text-upper {
+    text-transform: uppercase;
+}
+
 #container {
     display: flex;
     flex-direction: row;
@@ -32,7 +36,7 @@
     background-color: var(--bio-bg-color);
     text-align: center;
     padding: 30px 12px;
-    border-right: 5px solid var(--bio-border-color);
+    /* border-right: 5px solid var(--bio-border-color); */
 }
 
 #about-container {
@@ -234,6 +238,14 @@
     }
 }
 
-.text-upper {
-    text-transform: uppercase;
+@media (min-width: 768px) {
+    .skills-title {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1040px) {
+    .skills-title {
+        font-size: 24px;
+    }
 }
