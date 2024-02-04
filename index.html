@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Wesley dos Anjos</title>
     <meta name="keywords" content="wesley dos anjos, portfólio, programador, fullstack">
     <meta name="author" content="Wesley dos Anjos">
+    <meta name="application-name" content="Wesley Anjos">
+    <meta name="description" content="Está é uma página portfólio">
+    <meta name="generetor" content="Visual Studio Code">
+    <title>Portfólio Wesley dos Anjos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +22,12 @@
     <main id="container">
         <aside id="bio-container">
             <h2 class="text-upper">Wesley dos Anjos</h2>
-            <img src="./image/me.jpeg" alt="Wesley dos Anjos" id="bio-image">
+            <img src="./image/me.jpeg" alt="Wesley dos Anjos" id="bio-image" title="Wesley dos Anjos">
             <p>Olá, meu nome é Wesley dos Anjos e sou <span class="highlight">Desenvolvedor Front-end</span></p>
             <p id="welcome-text">Seja bem-vindo!</p>
             <ul id="social-container">
-                <li><a href="https://github.com/wesleyanjos1996/" target="_blank" title="GitHub"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="https://www.linkedin.com/in/wesleyanjos96/" target="_blank" title="Linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/wesleyanjos1996/" target="_blank" title="GitHub" rel="follow"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/wesleyanjos96/" target="_blank" title="Linkedin" rel="follow"><ion-icon name="logo-linkedin"></ion-icon></a></li>
             </ul>
             <div id="email-container">
                 <ion-icon name="mail-outline"></ion-icon><a href="mailto:wesleyanjosprogramming@outlook.com.br" title="Email">wesleyanjosprogramming@outlook.com.br</a>
@@ -35,7 +38,10 @@
             <p id="title"><span class="highlight text-upper">Desenvolvedor Front-end</span></p>
             <p class="description">Sou desenvolvedor especializado em sites e sistemas web, gosto de participa de projetos desde a <span class="highlight">definição das regras de négocio e levantamento de requisitos</span> até o <span class="highlight">deploy da aplicação</span>.</p>
             <p class="description">Atuo tanto no <span class="highlight">Front-end</span> como no <span class="highlight">Back-end</span>, e gosto de tecnologia, estudo um pouco todos os dias para me tornar melhor e escreve códigos eficientes.</p>
-            <a href="https://github.com/wesleyanjos1996/" target="_blank" title="GitHub" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:wesleyanjosprogramming@outlook.com.br" title="Email">wesleyanjosprogramming@outlook.com.br</a>
+            </div>
+            <a href="https://github.com/wesleyanjos1996/" target="_blank" title="GitHub" id="btn-projects" rel="follow"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
             <h2 id="skills-section-title" class="text-upper">Minhas Skills</h2>
             <p class="description">Conheça as tecnologias que tenho experiência:</p>
             <div id="skills-container">
